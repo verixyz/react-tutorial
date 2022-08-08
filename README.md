@@ -60,7 +60,7 @@ Open src/App.tsx and replace with the following code:
 import React, { useEffect, useState } from 'react'
 import './App.css'
 
-import { agent } from './veramo/setup'
+import { agent } from './verixyz/setup'
 
 function App() {
   const [didDoc, setDidDoc] = useState<any>()
